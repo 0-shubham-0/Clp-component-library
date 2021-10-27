@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>CLP Component Library</h1>
+    <h1 class="main-heading sec-heading">CLP Component Library</h1>
     <p>This is a clp library which I am making to learn Web Development</p>
     <hr>
     <h2>@typography</h2>
@@ -19,44 +19,46 @@
     <hr>
     <h2>@Container</h2>
     <h1>Fluid Container</h1>
-    <div>This is a common container</div>
-    <h1>center fluid container</h1>
-    <div>this is a center container which will go till the specified width of the page</div>
+    <div class="container container-fluid">This is a common container</div>
+    <h1>Center fluid container</h1>
+    <div class="container container-center">This is a center container which will go till the specified width of the page</div>
     <hr>
     <h2>@link</h2>
-    <div>
-        <a href="#">Primary link</a>
-        <a href="#">Secondary link</a>
+    <div class="link-border">
+        <a class="links primary-links" href="#">Primary link</a>
+        <a class="links secondary-links" href="#">Secondary link</a>
     </div>
-    <h2>is an ordered list</h2>
+    <hr>
+    <h2>@List</h2>
+    <h2>This is an ordered list</h2>
     <ol>
         <li>item 1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>item2</li>
+        <li>item 3</li>
     </ol>
     <h2>unordered list</h2>
-    <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">item 1</li>
+        <li class="list-item-inline">item 2</li>
+        <li class="list-item-inline">item 3</li>
     </ul>
     <h2>reversed unordered list</h2>
-    <ul>
+    <ol reversed>
         <li>item 1</li>
         <li>item 2</li>
         <li>item 3</li>
-    </ul>
+    </ol>
     <hr>
 
     <h2>@Nav</h2>
-    <div>
-        <div>Software Comunity</div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Blogs</a></li>
+    <nav class="nav">
+        <div class="nav-band">Software Comunity</div>
+        <ul class="list-non-bullet nav-pill ">
+            <li class="list-item-inline"><a class="links links-active"  href="#">Home</a></li>
+            <li class="list-item-inline"><a class="links" href="#">Project</a></li>
+            <li class="list-item-inline"><a class="links" href="#">Blogs</a></li>
         </ul>
-    </div>
+    </nav>
     <h2>@header</h2>
     <header>
         <img src="resource/images/Static.png" alt="HTML CSS">
