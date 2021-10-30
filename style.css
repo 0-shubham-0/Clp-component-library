@@ -4,8 +4,7 @@
     --primary-color:rgb(87, 166, 212);
 }
 body{
-    font-family: 'Montserrat', sans-serif;;
-    background-color: rgb(223, 224, 224);
+    font-family: 'Montserrat', sans-serif;    
 }
 .main-heading{
     color: rgb(129, 93, 129);
@@ -52,6 +51,7 @@ body{
 .list-item-inline{
     display: inline;
     padding: 0.5rem 1.5rem;
+    
 }
 
 .nav{
@@ -74,4 +74,47 @@ body{
 }
 .nav .links-active{
     font-weight: 900;
+}
+
+.imagehead{
+    padding: 1rem;
+}
+.image{
+    max-width: 70%;
+    max-height: 350px;
+    display: block;
+    margin: auto;
+}
+.imageheading{
+    text-align: center;
+    padding-top: 1 rem;
+}
+.Web{
+    color: var(--primary-color);
+}
+.sectionpara{
+    max-width: 700px;
+    text-align: justify;
+    margin: auto;
+}
+.offwhite{
+    background-color: rgb(236, 233, 221);
+    padding: 1rem;
+}
+
+.footer{
+    padding: 2rem 3rem;
+}
+.footerhead{
+    text-align: center;
+    font-weight: bolder;
+}
+.footer .links{
+    color: #fff;
+}
+.social{
+    text-align: center;
+}
+.footer ul{
+    padding-inline-start: 0;
 }
